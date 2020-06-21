@@ -43,5 +43,6 @@ to your docker hub account.
 `make run-dh` will pull the container from docker hub and run it
 
 This is the command that can be used to run your
-container in production. For more info about deploying this,
-check out my blog post [here](ephjos.io/).
+container in production. For more info about deploying this
+(with https enabled!), check out my blog post
+[here](https://www.ephjos.io/blog/deploy%20a%20flask%20app%20over%20https%20using%20docker%20and%20nginx).
