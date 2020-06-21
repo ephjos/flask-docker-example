@@ -1,0 +1,64 @@
+/*
+ * Import fonts
+ */
+@font-face {
+  font-family: JetBrains;
+  src: url("../font/JetBrainsMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: JetBrainsBold;
+  src: url("../font/JetBrainsMono-ExtraBold.ttf");
+}
+
+html {
+    /*
+     * Variable declarations, available everywhere on the page
+     */
+    --bg: #0B0c10;
+    --bg-alt: #1f2833;
+    --main: #c5c6c7;
+    --acc: #66fcf1;
+    --acc-alt: #f64c72;
+}
+
+body {
+  font-family: "JetBrains";
+  font-size: 1rem;
+  background: var(--bg);
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  background: var(--bg);
+}
+
+.jumbotron {
+    padding: 1.5rem;
+    background: 0;
+}
+
+.jumbotron img {
+}
+
+.jumbotron p, .jumbotron li {
+  color: var(--white);
+}
+
+.no-link, .no-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar {
+  font-size: 1.8rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline var(--white);
+}
+
+.home-button > span {
+  color: var(--acc);
+}
