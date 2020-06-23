@@ -45,4 +45,4 @@ to your docker hub account.
 This is the command that can be used to run your
 container in production. For more info about deploying this
 (with https enabled!), check out my blog post
-[here](https://www.ephjos.io/blog/deploy%20a%20flask%20app%20over%20https%20using%20docker%20and%20nginx).
+[here](https://ephjos.io/blog/deploying%20a%20flask%20application%20with%20docker,%20over%20https).
