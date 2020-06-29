@@ -12,7 +12,7 @@ deployed as a docker container.
 - make
 - virtualenv
 
-## app/
+## /app
 
 This directory contains the source for the Flask application.
 In this directory, `make run` will install all dependencies in
@@ -45,4 +45,4 @@ to your docker hub account.
 This is the command that can be used to run your
 container in production. For more info about deploying this
 (with https enabled!), check out my blog post
-[here](https://ephjos.io/blog/deploying%20a%20flask%20application%20with%20docker,%20over%20https).
+[here](https://www.ephjos.io/blog/deploying-a-flask-application-with-docker-over-https).
